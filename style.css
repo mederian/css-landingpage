@@ -3,7 +3,6 @@
 
     --hero-main-text-size: 48px;
     --hero-main-text-weight: 800;
-    --hero-main-text-size: 48px;
     --hero-main-text-color: #F9FAF8;
 
     --hero-secondary-text-size: 18px;
@@ -24,3 +23,105 @@
     --quote-text-color: #1F2937;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    margin: 0 250px;
+    background-color: white;    
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+.header{
+    background-color: var(--dark-bg-color);
+    font-size: var(--hero-secondary-text-size);
+    color: var(--hero-secondary-text-color);
+}
+
+.header h1{
+    font-size: var(--hero-main-text-size);
+    font-weight: var(--hero-main-text-weight);
+    color: var(--hero-main-text-color);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+
+.imagesection img{
+    display: block;
+    height: auto;
+    
+    margin: auto;
+}
+
+.headerlogo{
+    font-size: var(--header-logo-text-size);
+    color: var(--header-logo-text-size);
+}
+button{
+    background-color: var(--button-color); 
+    color: var(--hero-secondary-text-color);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.subtext{
+    width: 120px;
+}
+.subtextsection{
+    justify-content: center;
+    gap:40px
+}
+.subtext img{
+    border: 2px solid var(--button-color);
+    border-radius: 10px;
+}
+
+.quotesection{
+    background-color: var(--quote-bg-color);
+    color: var(--quote-text-color);
+    font-size: var(--quote-text-size);
+    font-weight: var(--quote-text-weight);
+}
+.quotesection strong {
+
+}
+
+.main .column{
+    text-align: center;
+}
+.main h1{
+    font-size: var(--information-header-text-size);
+    color: var(--information-header-text-color);
+    font-weight: var(--information-header-text-weight);
+}
+
+.footer{
+    flex: auto;
+    background-color: var(--dark-bg-color);
+    font-size: var(--hero-secondary-text-size);
+    color: var(--hero-secondary-text-color);
+}
