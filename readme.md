@@ -1,5 +1,3 @@
-# CSS Landingpage
-
 # CSS Landing page
 Exercies project from "The Odin Project" Foundations section
 
